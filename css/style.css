@@ -1,0 +1,863 @@
+html,
+body {
+	height: 100%;
+	font-family: "宋体";
+}
+
+header,
+section,
+footer {
+	width: 100%;
+}
+
+section {
+	height: 100%;
+	overflow: auto;
+}
+
+
+/* login.html 样式*/
+
+.center-box {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(153, 153, 153, 0.5);
+}
+
+.login-header {
+	height: 2.05rem;
+	width: 100%;
+}
+
+.login-header .set img {
+	width: 0.95rem;
+	height: 0.85rem;
+	margin: 0.325rem 0 0 0.5rem;
+}
+
+.login-header .news img {
+	height: 0.95rem;
+	width: 1.05rem;
+	margin: 0.25rem 0.42rem 0 0;
+}
+
+.login-main {
+	text-align: center;
+}
+
+.login-main img {
+	width: 3.15rem;
+	height: 3.15rem;
+	margin-bottom: 4.2rem;
+}
+
+.login-main input {
+	width: 12.4rem;
+	height: 1.95rem;
+	display: block;
+	border-radius: 1.25rem;
+	margin-left: 1.8rem;
+	background: #ff6499;
+	color: #fff;
+	text-align: center;
+	font-size: 0.7rem;
+	line-height: 1.95rem;
+	margin-bottom: 5.7rem;
+	border: none;
+}
+
+.login-main ul li {
+	float: left;
+	width: 33%;
+	height: 5.3rem;
+	border: 0.025rem solid #fcfcfc;
+	text-align: center;
+}
+
+.login-main ul li img {
+	width: 1.125rem;
+	height: 1.125rem;
+	/*margin: 1.65rem 0 0.35rem 2.075rem;*/
+	margin: 1.65rem 0 0.35rem 0 ;
+	/*display: block;*/
+}
+
+.login-main ul li span {
+	display: block;
+	color: #fff;
+	text-align: center;
+}
+
+.login-footer,
+.home-footer {
+	height: 2.0rem;
+	background: #fff;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.login-footer li,
+.home-footer li {
+	float: left;
+	width: 33%;
+}
+
+.login-footer li img,
+.home-footer li img {
+	width: 1.125rem;
+	height: 1.125rem;
+	margin: 0.175rem 0 0 2.1rem;
+	display: block;
+	margin-bottom: 0.2rem;
+}
+
+.login-footer li span,
+.home-footer li span {
+	display: block;
+	color: #808080;
+	text-align: center;
+	font-size: 0.5rem;
+}
+
+.login-footer li:nth-of-type(2) a,
+.home-footer li:nth-of-type(2) a {
+	display: block;
+	background: #ff6499;
+	width: 1.95rem;
+	height: 1.4rem;
+	border-radius: 0.1rem;
+	text-align: center;
+	line-height: 1.4rem;
+	font-size: 0.8rem;
+	color: #fff;
+	font-weight: 700;
+	margin: 0.175rem 0 0 1.675rem;
+}
+
+/* login.html样式*/
+.app-login-header p{
+	height: 1.8rem;
+	margin-bottom: 1.0rem;
+}
+.app-login-header p img{
+	width: 0.75rem;
+	margin: 0.5rem 0 0 0.7rem;
+}
+.app-login-t{
+	text-align: center;
+}
+.app-login-t h1{
+	line-height: 3.1rem;
+	color: #fff;
+	text-align: center;
+}
+.app-login-t img{
+	width: 1.95rem;
+}
+.app-login-t p{
+	color: #fff;
+	line-height: 1.25rem;
+}
+.app-login-b{
+	margin: 2.05rem 1.25rem 0 1.25rem;
+}
+.app-login-b img{
+	width: 100%;
+	margin-bottom: 2.5rem;
+}
+.app-login-b input[type="text"]{
+	height: 1.6rem;
+	width: 100%;
+	color: #fff;
+	line-height: 1.2rem;
+	padding-top: 0.2rem;
+	font-size:0.6rem ;
+	border: none;
+	background: #FF6499;
+	border-bottom: 1px solid #fff;
+}
+.app-login-b input[type="password"]{
+	height: 1.6rem;
+	width: 100%;
+	color: #fff;
+	line-height: 1.2rem;
+	padding-top: 0.2rem;
+	font-size:0.6rem ;
+	border: none;
+	background: #FF6499;
+	border-bottom: 1px solid #fff;
+	/*border-top: 1px solid #fff;*/
+}
+.app-login-b input[type="button"]{
+	width: 100%;
+	height: 1.95rem;
+	background: #fff;
+	color: #FF6499;
+	border: none;
+	border-radius:1rem ;
+	margin-top: 0.95rem;
+	font-size: 0.7rem;
+}
+.app-login-footer{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 25.6rem;
+}
+.app-login-footer ul{
+	width: 100%;
+	height: 1.9rem;
+}
+.app-login-footer li{
+	float: left;
+	width: 49.7%;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #fff;
+	line-height: 1.9rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.6rem;
+	-webkit-box-sizing:border-box ;
+}
+.app-login-footer li:nth-of-type(1){
+	border-left: none;
+}
+.app-login-footer li:nth-of-type(2){
+	border-right: none;
+}
+
+/* index.html 样式*/
+
+.home-header {
+	height: 1.25rem;
+	padding: 0.15rem 0 0.15rem 0.35rem;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+}
+
+.home-header li img {
+	width: 1.0rem;
+	margin-right: 0.6rem;
+}
+
+.home-section {
+	position: relative;
+}
+
+.wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.home-banner {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.home-banner ul {
+	width: 500%;
+	height:10rem;
+}
+
+.home-banner li {
+	height: 100%;
+	float: left;
+	width: 20%;
+}
+
+.home-banner li img {
+	width: 100%;
+	height: 100%;
+}
+
+.home-banner .controller {
+	position: absolute;
+	bottom: 0.75rem;
+	left: 6.5rem;
+	width: 100%;
+	height: 24px;
+	text-align: center;
+	z-index: 10;
+}
+
+.home-banner .controller li {
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	margin: 0.13rem;
+	border-radius: 50%;
+	background-color: #fff;
+	line-height: 2.5rem;
+	overflow: hidden;
+}
+
+ .home-banner .controller .current {
+	background-color: #f00;
+}
+
+.home-nav {
+	height: 5.0rem;
+	width: 100%;
+	margin-bottom: 0.25rem;
+}
+
+.home-nav li {
+	float: left;
+	width: 25%;
+	height: 2.5rem;
+	text-align: center;
+}
+
+.home-nav li img {
+	width: 0.875rem;
+	height: 0.95rem;
+	margin-top: 0.75em;
+	margin-bottom: 0.25rem;
+}
+
+.home-nav li span {
+	display: block;
+	text-align: center;
+	color: #ff6499;
+	font-size: 0.5rem;
+}
+
+.home-main li {
+	height: 11.0rem;
+	width: 100%;
+	position: relative;
+	margin-bottom: 0.25rem;
+}
+
+.home-main li img {
+	width: 100%;
+	height: 100%;
+}
+
+.home-main li div {
+	padding-left: 0.425rem;
+	width: 80%;
+	position: absolute;
+	bottom: 0.25rem;
+}
+
+.home-main li div em {
+	font-style: normal;
+	font-size: 0.7rem;
+	color: #fff;
+	line-height: 1.625rem;
+}
+
+.home-main li div span {
+	margin-left: 0.25rem;
+	line-height: 1.625rem;
+	font-size: 0.7rem;
+	color: #fff;
+}
+
+.home-main li div p {
+	font-size: 0.85rem;
+	color: #fff;
+}
+
+
+/* hf.html 样式*/
+
+.hold-header {
+	position: absolute;
+	top: 0;
+	height: 1.5rem;
+	background: #fff;
+	width: 100%;
+	z-index: 5;
+}
+
+.hold-header li {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	line-height: 1.5rem;
+}
+
+.hold-header li img {
+	width: 0.77rem;
+	margin-top: 0.4rem;
+}
+
+.hold-header li:nth-of-type(1) img {
+	float: left;
+	margin-left: 0.575rem;
+}
+
+.hold-header li:nth-of-type(3) img {
+	float: right;
+	margin-right: 0.75rem;
+}
+
+.hold-flowers-section {
+	position: relative;
+}
+
+.hold-flowers {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.hold-flowers ul {
+	width: 50%;
+	margin-top: 1.55rem;
+}
+
+.hold-flowers li {
+	width: 95%;
+	margin-bottom: 0.4rem;
+	margin-left: 2.5%;
+	position: relative;
+}
+
+.hold-flowers li img {
+	width: 100%;
+	border-radius: 0.2rem;
+}
+
+.hold-flowers li span {
+	background: url(../img/collection1.png) no-repeat;
+	display: block;
+	width: 0.925rem;
+	height: 0.925rem;
+	background-size: 0.925rem;
+	position: absolute;
+	right: 0.35rem;
+	bottom: 0.45rem;
+}
+
+
+/* plan.html 样式*/
+
+.plan-header {
+	position: absolute;
+	top: 0;
+	height: 1.425rem;
+	z-index: 10;
+}
+
+.plan-header li {
+	float: left;
+	line-height: 1.425rem;
+	color: #fff;
+	font-size: 0.6rem;
+}
+
+.plan-header li img {
+	width: 1.0rem;
+	margin-left: 0.33rem;
+}
+
+.plan-header li:nth-of-type(2),
+.plan-header li:nth-of-type(3) {
+	width: 2.5rem;
+	height: 1.1rem;
+	text-align: center;
+	line-height: 1.1rem;
+	margin-top: 0.15rem;
+	background: #FF6499;
+}
+
+.plan-header li:nth-of-type(2) {
+	margin-left: 3.75rem;
+	border-radius: 0.18rem 0 0 0.18rem;
+	border: 0.05rem solid #FF6499;
+}
+
+.plan-header li:nth-of-type(3) {
+	background: #fff;
+	color: #FF6499;
+	border-radius: 0 0.18rem 0.18rem 0;
+	border: 0.05rem solid #FF6499;
+}
+
+.plan-header li:nth-of-type(4) {
+	margin-left: 2.15rem;
+}
+
+.plan-section {
+	position: relative;
+}
+
+.plan-main {
+	background: #e9e9e9;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.plan-main div {
+	margin-bottom: 0.25rem;
+	background: #fff;
+	position: relative;
+}
+
+.plan-main div img {
+	width: 100%;
+	display: block;
+}
+
+.plan-main div ul {
+	height: 3.825rem;
+	padding-top: 0.775rem;
+	padding-left: 0.475rem;
+}
+
+.plan-main div li img {
+	width: 1.925rem;
+	border-radius: 50%;
+	margin-left: 1.75rem;
+	margin-bottom: 0.5rem;
+}
+
+.plan-main div .enjoy {
+	position: absolute;
+	right: 0.6rem;
+	bottom: 5.35rem;
+	width: 0.92rem;
+	height: 0.92rem;
+	background: url(../img/collection.png) no-repeat;
+	background-size: 0.92rem;
+}
+
+.plan-main li {
+	float: left;
+}
+
+.plan-main li:nth-of-type(1) {
+	margin-right: 4.9rem;
+}
+
+.plan-main li h2 {
+	padding-left: 0.45rem;
+	color: #000;
+}
+
+.plan-main li span {
+	display: block;
+	line-height: 1.5rem;
+	color: #949494;
+	font-size: 0.6rem;
+}
+
+.plan-main li em {
+	color: #949494;
+	font-size: 0.6rem;
+	font-style: normal;
+}
+
+.plan-main li strong {
+	color: #FF6499;
+	font-size: 0.75rem;
+}
+
+.plan-main li p {
+	color: #949494;
+}
+
+.plan-footer {
+	position: absolute;
+	bottom: 0;
+	height: 2.3rem;
+	background: #FF6499;
+	color: #fff;
+	padding-left: 0.6rem;
+}
+
+.plan-footer em {
+	width: 0.38rem;
+	height: 0.63rem;
+	background: url(../img/list.png) no-repeat;
+	background-size: 0.375rem;
+	position: absolute;
+	top: 0.85rem;
+	right: 0.575rem;
+}
+
+.plan-footer p {
+	padding-top: 0.475rem;
+	font-size: 0.7rem;
+	margin-bottom: 0.25rem;
+}
+
+
+/* mo.html样式*/
+
+.mo-header {
+	position: absolute;
+	top: 0;
+	height: 1.5rem;
+	width: 100%;
+	z-index: 10;
+}
+
+.mo-header li img {
+	width: 1.0rem;
+	margin: 0.125rem 0.4rem 0 0.32rem;
+}
+
+.mo-section {
+	position: relative;
+}
+
+.mo-main {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.mo-main .mo-main-top {
+	height: 13.05rem;
+	width: 100%;
+}
+
+.mo-main a img {
+	width: 2.0rem;
+	height: 2.0rem;
+	border-radius: 50%;
+	border: 0.1rem solid #fff;
+	position: absolute;
+	top: 11.62rem;
+	left: 6.95rem;
+}
+
+.mo-name {
+	position: relative;
+	height: 3.975rem;
+	text-align: center;
+	border-bottom: 0.25rem solid #f7f7f7;
+}
+
+.mo-name h2 {
+	text-align: center;
+	margin-top: 1.25rem;
+	color: #000;
+	font-family: "宋体";
+}
+
+.mo-name span {
+	line-height: 1.375rem;
+	font-size: 0.65rem;
+	color: #4f4f4f;
+}
+
+.mo-profile {
+	border-bottom: 0.25rem solid #f7f7f7;
+}
+
+.mo-profile p {
+	padding: 1.0rem 1.325rem;
+	color: #a3a3a3;
+	font-size: 0.55rem;
+}
+
+.mo-main ul li {
+	border-bottom: 0.125rem solid #F7F7F7;
+}
+
+.price {
+	height: 6.025rem;
+	padding: 1.125rem 0 2.325rem 0;
+}
+
+.price p span {
+	line-height: 1.6rem;
+	color: #c6c6c6;
+	font-size: 0.6rem;
+	margin-right: 0.8rem;
+	margin-left: 0.8rem;
+}
+
+.price p em {
+	font-style: normal;
+	font-size: 0.6rem;
+	color: #FF6499;
+}
+
+.price a {
+	display: block;
+	margin-top: 0.85rem;
+	border-top: 1px solid #949494;
+	text-align: center;
+	line-height: 1.9rem;
+	color: #ababab;
+	font-size: 0.7rem;
+}
+
+.mo-footer {
+	height: 2.325rem;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.mo-footer li {
+	float: left;
+	height: 2.325rem;
+	text-align: center;
+}
+
+.mo-footer li span {
+	display: block;
+	text-align: center;
+	line-height: 0.925rem;
+	font-size: 0.6rem;
+	color: #fff;
+}
+
+.mo-footer li:nth-of-type(1),
+.mo-footer li:nth-of-type(2),
+.mo-footer li:nth-of-type(3) {
+	width: 22%;
+	height: 1.85rem;
+	padding-top: 0.475rem;
+}
+
+.mo-footer li:nth-of-type(1) {
+	background: #ffbcd3;
+}
+
+.mo-footer li:nth-of-type(2) {
+	background: #ffa8c6;
+}
+
+.mo-footer li:nth-of-type(3) {
+	background: #ff8cb4;
+}
+
+.mo-footer li:nth-of-type(4) {
+	background: #ff6499;
+	width: 34%;
+	text-align: center;
+}
+
+.mo-footer li:nth-of-type(4) strong {
+	line-height: 2.325rem;
+	color: #fff;
+	font-size: 0.7rem;
+}
+
+.mo-footer li img {
+	width: 0.85rem;
+	height: 0.85rem;
+}
+
+
+/* mo-home.html 样式*/
+
+.mo-home-section {
+	position: relative;
+}
+
+.mo-home-main .mo-home-bg {
+	height: 12.65rem;
+}
+
+.mo-home-main {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.mo-home-main .mo-logo {
+	position: absolute;
+	top: 0;
+	z-index: 5;
+	height: 12.65rem;
+	width: 100%;
+	background: rgba(255, 255, 190, 0.7);
+	text-align: center;
+}
+
+.mo-home-main .mo-logo img {
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	border: 0.08rem solid #fff;
+	margin-top: 4.5rem;
+}
+
+.mo-home-main .mo-logo p {
+	margin-top: 1.35rem;
+	color: #fff;
+	font-size: 0.9rem;
+	font-weight: 700;
+}
+
+.mo-home-main .mo-logo span {
+	line-height: 1.95rem;
+	color: #fff;
+	font-size: 0.6rem;
+}
+
+.mo-home-main ul li {
+	height: 3.0rem;
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding-top: 1rem;
+	position: relative;
+}
+
+.mo-home-main ul li span {
+	color: #8d8d8d;
+	font-size: 0.6rem;
+}
+
+.mo-home-main ul li em {
+	width: 1px;
+	height: 54%;
+	background: #808080;
+	position: absolute;
+	top: 23%;
+	right: 0;
+}
+
+.mo-home-main ul li strong {
+	display: block;
+	line-height: 2.25rem;
+	color: #000;
+	font-size: 0.7rem;
+}
+
+.mo-workes div h4 {
+	line-height: 2.1rem;
+	text-align: center;
+	color: #000;
+}
+
+.mo-workes-last {
+	margin-bottom: 2.325rem;
+}
+
+.scrollY {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 2px;
+	background: #666666;
+	display: none;
+	opacity: 0;
+}
+
+.no-main p{
+	margin-top: 12.5rem;
+	text-align: center;
+	color: #666;
+}
+

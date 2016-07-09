@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/initialize.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/access-meta.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/tomove.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/motion.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body style="background: #FF6499;">
+		<header class="app-login-header">
+			<p>
+				<a href="c.html"><img src="img/return2.png" alt="" /></a>
+			</p>
+		</header>
+		<section class="app-section">
+			<div class="app-wrap"></div>
+			<div class="app-login-t">
+				<h1>开始婚礼时光</h1>
+				<img src="img/wechat.png" alt="" />
+				<p>微信登录</p>
+			</div>
+			<div class="app-login-b">
+				<img src="img/or.png" />
+				<input type="text" value="手机/邮箱/账户名" />
+				<input type="password" value="输入密码" />
+				<input type="button" value="登录" />
+			</div>
+			</div>
+		</section>
+		<footer>
+			<ul class="app-login-footer clearfix">
+				<li>忘记密码</li>
+				<li>注册</li>
+			</ul>
+		</footer>
+		<script type="text/javascript">
+			
+			var aInput=document.getElementsByTagName('input');
+			
+			aInput[0].onfocus=function(){
+				
+					this.value='';
+					this.style.outline="none";
+				
+			}
+			
+			aInput[1].onfocus=function(){
+				
+					this.value='';
+					this.style.outline="none";
+				
+			}
+			
+			
+			var touch = new hp('app-section', 'app-wrap');
+			touch.inite();
+		</script>
+	</body>
+
+</html>

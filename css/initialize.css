@@ -1,0 +1,45 @@
+/* 清除内外边距 */
+body,html,header,footer,section,span,p,h1,h2,h3,h4,h5,ul,ol,li,select,input,button,textarea,aside,article{
+  margin: 0;
+  padding: 0;
+}
+/* 设置默认字体 */
+body,button,input,select,textarea{ font: 62.5%/1 "微软雅黑", Tahoma, Helvetica, Arial, sans-serif; }
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+/* 重置文本格式元素 */
+a { text-decoration: none; }
+a:focus { outline:none; }
+img{
+  width:100%;
+  border:none;
+  vertical-align:middle;
+  }
+/* 重置表格元素 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ========================= 页面常用样式 CSS样式 =========================== */  
+html,body{
+  width:100%;
+  overflow-x:hidden;  
+}
+body{
+  -text-size-adjust:none;
+  overflow:hidden;
+  -webkit-user-select:none;/*不允许用户选择文本*/
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+/*清除浮动*/
+.clearfix:after{
+  display:block;
+  clear:both;
+  height:0;
+  visibility:hidden;
+  content:" ";
+}
+.fl{float:left;}
+.fr{float:right;}
+input,select{-webkit-appearance:none;}
+/*初始化，改变手机默认对表单的样式*/
